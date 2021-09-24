@@ -14,11 +14,26 @@
         />
 
        <KeyFrameSet>
+
            <KeyPosition
                app:motionTarget="@id/moon"
-               app:percentY="0.5"
+               app:percentY="0.3"
+               app:keyPositionType="parentRelative"
+               app:framePosition="20">
+
+           </KeyPosition>
+           <KeyPosition
+               app:motionTarget="@id/moon"
+               app:percentY="0.7"
                app:keyPositionType="parentRelative"
                app:framePosition="50">
+
+           </KeyPosition>
+           <KeyPosition
+               app:motionTarget="@id/moon"
+               app:percentY="0.3"
+               app:keyPositionType="parentRelative"
+               app:framePosition="80">
 
            </KeyPosition>
        </KeyFrameSet>

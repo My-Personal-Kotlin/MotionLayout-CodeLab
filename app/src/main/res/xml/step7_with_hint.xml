@@ -76,7 +76,6 @@
                     app:motionTarget="@id/credits"
                     android:alpha="0.0"
             />
-
             <!-- Added a hint that flies out and fades after the user swipes to the right -->
             <KeyAttribute
                 app:motionTarget="@id/swipe_hint"

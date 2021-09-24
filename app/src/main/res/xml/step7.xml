@@ -14,6 +14,7 @@
         <OnSwipe
                 app:touchAnchorId="@id/moon"
                 app:touchAnchorSide="bottom"
+                app:dragDirection="dragRight"
         />
 
 
@@ -22,25 +23,30 @@
                     app:framePosition="25"
                     app:motionTarget="@id/moon"
                     app:keyPositionType="parentRelative"
-                    app:percentY="0.6"
+                    app:percentY="0.4"
             />
             <KeyPosition
                     app:framePosition="50"
                     app:motionTarget="@id/moon"
                     app:keyPositionType="parentRelative"
-                    app:percentY="0.5"
+                    app:percentY="0.2"
             />
             <KeyPosition
                     app:framePosition="75"
                     app:motionTarget="@id/moon"
                     app:keyPositionType="parentRelative"
-                    app:percentY="0.6"
+                    app:percentY="0.4"
             />
+            <KeyAttribute
+                app:framePosition="75"
+                app:motionTarget="@id/credits"
+                android:alpha="0.0"
+                />
             <KeyAttribute
                     app:framePosition="50"
                     app:motionTarget="@id/moon"
-                    android:scaleY="2.0"
-                    android:scaleX="2.0"
+                    android:scaleY="2.5"
+                    android:scaleX="2.5"
                     android:rotation="-360"
             />
             <KeyAttribute
@@ -72,11 +78,6 @@
                         app:customColorValue="#FFFFFF"
                 />
             </KeyAttribute>
-            <KeyAttribute
-                    app:framePosition="85"
-                    app:motionTarget="@id/credits"
-                    android:alpha="0.0"
-            />
         </KeyFrameSet>
     </Transition>
 
