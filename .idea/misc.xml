@@ -10,6 +10,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14437689969604864" />
         <entry key="app/src/main/res/layout/activity_step1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_step1_completed.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_step2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_step3.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_step8.xml" value="0.15121580547112462" />
         <entry key="app/src/main/res/layout/activity_step8_completed.xml" value="0.15121580547112462" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.15121580547112462" />
